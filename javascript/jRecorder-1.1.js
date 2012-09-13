@@ -172,6 +172,13 @@
 		getFlashMovie(jRecorderSettings['recorder_name']).jStopRecording();
 							
 	} 
+
+    // function call to preview recording, plays currently recorded audio
+    $.jRecorder.preview = function(){
+                    
+        getFlashMovie(jRecorderSettings['recorder_name']).jPreviewRecording();
+                            
+    } 
 		
 	//function call to send wav data to server url from the init configuration					
 	$.jRecorder.sendData = function(){
