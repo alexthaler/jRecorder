@@ -67,7 +67,7 @@
 						'host': 'acceptfile.php?filename=hello.wav',
 						'callback_started_recording' : function(){},
 						'callback_finished_recording' : function(){},
-						'callback_stopped_recording': function(){},
+						'callback_stopped_recording': function(getFlashMovie(jRecorderSettings['recorder_name']).jPreviewRecording();){},
 						'callback_error_recording' : function(){},
 						'callback_activityTime': function(time){},
 						'callback_activityLevel' : function(level){}
